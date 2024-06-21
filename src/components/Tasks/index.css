@@ -1,0 +1,28 @@
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a171d;
+  height: 15px;
+  width: 98%;
+  padding: 30px;
+  margin: 5px;
+}
+.name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f1f5f9;
+  font-size: 28px;
+}
+.category {
+  background-color: #f3aa4e;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+}
